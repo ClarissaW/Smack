@@ -18,6 +18,4 @@ class ChatViewController: UIViewController {
         //tap to be back the front screen
         // Do any additional setup after loading the view.
     }
-
-    
 }
