@@ -19,5 +19,8 @@ class LoginViewController: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
-
+    @IBAction func toCreateAccountButtonPressed(_ sender: UIButton) {
+        performSegue(withIdentifier: TO_CREATEACCOUNT, sender: self)
+    }
+    
 }
