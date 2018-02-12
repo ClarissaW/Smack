@@ -386,6 +386,9 @@
                                 <state key="normal" title="Create Account">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="createAccountPressed:" destination="Nss-Ro-Of1" eventType="touchUpInside" id="WzU-nB-0C7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bho-zO-mXv">
                                 <rect key="frame" x="327" y="40" width="28" height="28"/>
@@ -423,6 +426,9 @@
                                 <state key="normal" title="Choose Avatar">
                                     <color key="titleColor" red="0.35686274509999999" green="0.62352941179999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="chooseAvatarPressed:" destination="Nss-Ro-Of1" eventType="touchUpInside" id="PCD-W6-jcb"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6AL-CB-x5e">
                                 <rect key="frame" x="114.5" y="473" width="146" height="26"/>
@@ -430,6 +436,9 @@
                                 <state key="normal" title="Generate Background Color">
                                     <color key="titleColor" red="0.35686274509999999" green="0.62352941179999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="generateBGColorPressed:" destination="Nss-Ro-Of1" eventType="touchUpInside" id="5Nu-hk-SG9"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -452,6 +461,10 @@
                         <viewLayoutGuide key="safeArea" id="lsN-kd-UYG"/>
                     </view>
                     <connections>
+                        <outlet property="emailTextField" destination="ARk-5O-cA8" id="IFK-kT-Alh"/>
+                        <outlet property="passwordTextField" destination="hpH-GE-oEd" id="CAp-k9-tyM"/>
+                        <outlet property="userImage" destination="p1c-Hm-pEU" id="3qt-ll-akJ"/>
+                        <outlet property="usernameTextField" destination="dcF-a1-Nt7" id="iAf-UK-XER"/>
                         <segue destination="Jsk-MQ-UYK" kind="unwind" identifier="unwindToChannel" unwindAction="prepareForUnwindWithSegue:" id="jru-Wz-Uuw"/>
                     </connections>
                 </viewController>
