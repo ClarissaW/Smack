@@ -10,13 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Controller/CreateAccountViewController.swift"
-            timestampString = "540141435.664399"
+            timestampString = "540143284.757091"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "54"
             endingLineNumber = "54"
-            landmarkName = "CreateAccountViewController"
-            landmarkType = "3">
+            landmarkName = "chooseAvatarPressed(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -283,7 +283,14 @@
                                 <state key="normal" title="Login">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="loginButtonPressed:" destination="h0J-Cw-XzC" eventType="touchUpInside" id="5wD-ox-Jow"/>
+                                </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="LBa-0E-5Vj">
+                                <rect key="frame" x="169" y="390" width="37" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -301,6 +308,9 @@
                         <viewLayoutGuide key="safeArea" id="npF-ob-gtP"/>
                     </view>
                     <connections>
+                        <outlet property="activityIndicator" destination="LBa-0E-5Vj" id="7Tj-SJ-yi0"/>
+                        <outlet property="passwordTextField" destination="tqS-9S-nRq" id="LuT-Fh-DF2"/>
+                        <outlet property="userNameTextField" destination="XYb-IJ-YGY" id="VDx-wL-Fpc"/>
                         <segue destination="Nss-Ro-Of1" kind="show" identifier="toCreateAccount" id="k96-nI-QrJ"/>
                     </connections>
                 </viewController>
