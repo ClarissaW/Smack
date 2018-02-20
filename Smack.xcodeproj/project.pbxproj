@@ -12,8 +12,11 @@
 		B80900C3202E056E0080FADC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80900C2202E056E0080FADC /* Constants.swift */; };
 		B80900C5202E0CC50080FADC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80900C4202E0CC50080FADC /* LoginViewController.swift */; };
 		B80900C7202E2BEA0080FADC /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80900C6202E2BEA0080FADC /* CreateAccountViewController.swift */; };
+<<<<<<< HEAD
 		B80900CA20313C8B0080FADC /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80900C920313C8B0080FADC /* AuthService.swift */; };
 		B80900CC2031D7FF0080FADC /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80900CB2031D7FF0080FADC /* UserDataService.swift */; };
+=======
+>>>>>>> parent of 166c7f9... Add authService and web request through Alamofire
 		B814E443202C95F9006D9A1C /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B814E442202C95F9006D9A1C /* SWRevealViewController.m */; };
 		B814E447202C9C5F006D9A1C /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B814E446202C9C5F006D9A1C /* ChatViewController.swift */; };
 		B814E449202C9C90006D9A1C /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B814E448202C9C90006D9A1C /* ChannelViewController.swift */; };
@@ -30,8 +33,11 @@
 		B80900C2202E056E0080FADC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B80900C4202E0CC50080FADC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B80900C6202E2BEA0080FADC /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		B80900C920313C8B0080FADC /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		B80900CB2031D7FF0080FADC /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
+=======
+>>>>>>> parent of 166c7f9... Add authService and web request through Alamofire
 		B814E440202C95F8006D9A1C /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		B814E441202C95F9006D9A1C /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		B814E442202C95F9006D9A1C /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -74,6 +80,7 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		B80900C820313C6D0080FADC /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +90,8 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> parent of 166c7f9... Add authService and web request through Alamofire
 		B814E43F202C95C4006D9A1C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,7 +125,6 @@
 		B89AEE89202B8D2E00129053 = {
 			isa = PBXGroup;
 			children = (
-				B80900C820313C6D0080FADC /* Services */,
 				B80900C1202E054D0080FADC /* Utilities */,
 				B814E444202C9BFD006D9A1C /* Controller */,
 				B814E445202C9C10006D9A1C /* View */,
@@ -294,7 +302,6 @@
 				B80900C5202E0CC50080FADC /* LoginViewController.swift in Sources */,
 				B89AEE96202B8D2F00129053 /* AppDelegate.swift in Sources */,
 				B814E447202C9C5F006D9A1C /* ChatViewController.swift in Sources */,
-				B80900CA20313C8B0080FADC /* AuthService.swift in Sources */,
 				B80900C0202DE3FB0080FADC /* GradientView.swift in Sources */,
 				B80900C7202E2BEA0080FADC /* CreateAccountViewController.swift in Sources */,
 				B80900CC2031D7FF0080FADC /* UserDataService.swift in Sources */,

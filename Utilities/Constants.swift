@@ -12,6 +12,7 @@ let NOTIF_USER_DATA_DID_CHANGE = Notification.Name("notificationUSerDataChanged"
 let TO_LOGIN = "toLogin"
 let TO_CREATEACCOUNT = "toCreateAccount"
 let UNWIND = "unwindToChannel"
+<<<<<<< HEAD
 
 //userdefaults
 let TOKEN_KEY = "token"
@@ -33,3 +34,5 @@ let BEARER_HEADER = [
     "Authorization":"Bearer \(AuthService.instance.authToken)",
     "Content-Type": "application/json; charset=utf-8"
 ]
+=======
+>>>>>>> parent of 166c7f9... Add authService and web request through Alamofire
